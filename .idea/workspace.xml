@@ -4,33 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84d44438-9235-45d7-aea2-4cb5ba39d127" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AnalisesClinicos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desenvolvimento/cliente/Cidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desenvolvimento/cliente/Endereco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desenvolvimento/cliente/Paciente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desenvolvimento/cliente/Uf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desenvolvimento/controle/Controle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desenvolvimento/controle/Convenio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desenvolvimento/controle/Exame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desenvolvimento/controle/ExamePedidoExame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desenvolvimento/controle/GrupoExame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desenvolvimento/controle/Medico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desenvolvimento/controle/PedidoExame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desenvolvimento/programa/Programa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desenvolvimento/util/DataHoraLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desenvolvimento/util/DateValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desenvolvimento/util/ISystemLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desenvolvimento/util/ValidadorDeOpcao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desenvolvimento/util/ValidarCPF.java" afterDir="false" />
+    <list default="true" id="84d44438-9235-45d7-aea2-4cb5ba39d127" name="Changes" comment="Inplementações de Comentários nas classes ligadas ao paciente.">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/720f6476ef1d5b3e426bf50a9a65038168aec73c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desenvolvimento/cliente/Cidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desenvolvimento/cliente/Cidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desenvolvimento/cliente/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desenvolvimento/cliente/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desenvolvimento/cliente/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desenvolvimento/cliente/Paciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desenvolvimento/cliente/Uf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desenvolvimento/cliente/Uf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desenvolvimento/util/ISystemLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desenvolvimento/util/ISystemLine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +30,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -60,20 +43,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;cn.yiiguxing.plugin.translate&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Programa">
     <configuration name="Programa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="desenvolvimento.programa.Programa" />
@@ -128,12 +112,25 @@
       <workItem from="1693240923695" duration="40287000" />
       <workItem from="1693315105560" duration="48318000" />
       <workItem from="1693394197491" duration="6754000" />
-      <workItem from="1693403347666" duration="22534000" />
+      <workItem from="1693403347666" duration="25760000" />
     </task>
+    <task id="LOCAL-00001" summary="Criação e inplementação  do Sistema da Clínica Médica.">
+      <created>1693426260282</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693426260282</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Criação e inplementação  do Sistema da Clínica Médica." />
+    <MESSAGE value="Inplementações de Comentários nas classes ligadas ao paciente." />
+    <option name="LAST_COMMIT_MESSAGE" value="Inplementações de Comentários nas classes ligadas ao paciente." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

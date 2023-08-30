@@ -79,6 +79,12 @@ public class Paciente implements ISystemLine {
 
     public void cadastrarInformacoesPaciente() throws ParseException {
 
+        /*
+         * Este método cadastra as informações de um paciente.
+         *
+         * @throws ParseException Se a data de nascimento não for válida.
+         */
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("\n" + LINE);
@@ -100,12 +106,15 @@ public class Paciente implements ISystemLine {
             break;
         }
 
-        // Loop para o telefone
+        /*
+         * Valida o telefone
+         *
+         * O telefone deve ter 11 dígitos.
+         */
         while (true) {
             System.out.print("Telefone: ");
             String telefone = scanner.nextLine();
 
-            // Valida o telefone
             if (!telefone.matches("\\d{11}")) {
                 System.out.println("O número de telefone deve ter 11 dígitos.");
                 continue;
@@ -115,12 +124,15 @@ public class Paciente implements ISystemLine {
             break;
         }
 
-        // Loop para o RG
+        /*
+         * Valida o RG
+         *
+         * O RG deve ter 9 dígitos.
+         */
         while (true) {
             System.out.print("RG: ");
             String rg = scanner.nextLine();
 
-            // Valida o RG
             if (!rg.matches("\\d{9}")) {
                 System.out.println("O RG deve ter 9 dígitos.");
                 continue;
@@ -130,12 +142,15 @@ public class Paciente implements ISystemLine {
             break;
         }
 
-        // Loop para o CPF
+        /*
+         * Valida o CPF
+         *
+         * O CPF deve ter 11 dígitos e ser válido.
+         */
         while (true) {
             System.out.print("CPF: ");
             String cpf = scanner.nextLine();
 
-            // Valida o CPF
             if (!cpf.matches("\\d{11}")) {
                 System.out.println("O CPF deve ter 11 dígitos.");
                 continue;
@@ -150,11 +165,15 @@ public class Paciente implements ISystemLine {
             break;
         }
 
+        /*
+         * Valida a data de nascimento
+         *
+         * A data de nascimento deve estar no formato dd/mm/aaaa.
+         */
         while (true) {
             System.out.print("Data de Nascimento (Ex: 11/12/1976): ");
             String dataRecebida = scanner.nextLine();
 
-            // Valida a data
             if (!DateValidator.isValid(dataRecebida)) {
                 System.out.println("Data de nascimento inválida!");
                 continue;
@@ -165,31 +184,46 @@ public class Paciente implements ISystemLine {
             break;
         }
 
+        // Delega a tarefa de cadastrar as informações de endereço para a classe Endereco
         endereco.cadastrarInformacoesEndereco();
     }
 
+
+    /**
+     * Imprime as informações do paciente.
+     *
+     * @author [Seu nome]
+     * @since 2023-08-30
+     */
     public void imprimirInformacoesPaciente() {
 
+        // Converte a data de nascimento para uma string formatada
         String stringData = dateFormat.format(this.getDataNascimento());
 
+        // Imprime uma linha em branco e o título
         System.out.println("\n" + LINE);
         System.out.println("|           INFORMAÇÕES SOBRE O PACIENTE           |");
         System.out.println(LINE);
+
+        // Imprime a data e hora local
         System.out.println(dataHoraLocal.imprimirDataHoraLocal());
 
-        // Informações do paciente
+        // Imprime as informações do paciente
         System.out.println("Código: " + this.getCodigo());
         System.out.println("Nome Completo: " + this.getNomeCompleto() + " - " + "Telefone: " + this.getNumeroTelefone());
         System.out.println("RG: " + this.getRG() + " - " + "CPF: " + this.getCPF());
         System.out.println("Data de Nascimento: " + stringData);
 
-        // Informações do endereço
+        // Imprime as informações do endereço
         endereco.imprimirInformacoesEndereco();
     }
 
 
     public void listarInformacoesPaciente() {
 
+        // Este método lista as informações do paciente.
+
+        // Imprime o CPF e o nome completo do paciente.
         System.out.println("   |   " + this.getCPF() + "  |  " + this.getNomeCompleto());
     }
 

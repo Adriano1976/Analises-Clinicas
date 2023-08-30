@@ -1,0 +1,12 @@
+
+Q
+java:S1854"6Remove this useless assignment to local variable "uf".(ñÎ÷Øüÿÿÿÿ
+B
+java:S1481"'Remove this unused "uf" local variable.(ñÎ÷Øüÿÿÿÿ
+P
+java:S6213":Rename this variable to not match a restricted identifier.(·Ú°ð
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¼ïÞ’
+S	java:S106"9Replace this use of System.out or System.err by a logger.(™áŠóþÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÛŒõ‘ùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ˆº°´
