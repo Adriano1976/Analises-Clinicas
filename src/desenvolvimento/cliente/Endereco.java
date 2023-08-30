@@ -90,7 +90,7 @@ public class Endereco {
     /**
      * Cadastra as informações de endereço de um usuário.
      *
-     * @author [Seu nome]
+     * @author Adriano Santos
      */
     public void cadastrarInformacoesEndereco() {
 
@@ -204,7 +204,7 @@ public class Endereco {
     /**
      * Imprime as informações de endereço do objeto.
      *
-     * @author [Seu nome]
+     * @author Adriano Santos
      * @since 2023-08-30
      */
     public void imprimirInformacoesEndereco() {

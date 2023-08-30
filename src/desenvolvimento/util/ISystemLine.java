@@ -2,8 +2,9 @@ package desenvolvimento.util;
 
 /**
  * Interface que fornece uma linha de caracteres composta por 50 caracteres "-".
- *
  * Esta linha pode ser usada para fins de separação ou preenchimento.
+ *
+ * @author Adriano Santos
  */
 public interface ISystemLine {
 

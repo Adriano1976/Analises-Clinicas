@@ -5,6 +5,8 @@ import java.util.UUID;
 
 /**
  * Classe que representa uma cidade.
+ *
+ * @author Adriano Santos
  */
 public class Cidade {
 

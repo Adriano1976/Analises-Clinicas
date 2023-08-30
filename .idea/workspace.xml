@@ -5,14 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84d44438-9235-45d7-aea2-4cb5ba39d127" name="Changes" comment="Inplementações de Comentários nas classes ligadas ao paciente.">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/720f6476ef1d5b3e426bf50a9a65038168aec73c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/desenvolvimento/cliente/Cidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desenvolvimento/cliente/Cidade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/desenvolvimento/cliente/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desenvolvimento/cliente/Endereco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/desenvolvimento/cliente/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desenvolvimento/cliente/Paciente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/desenvolvimento/cliente/Uf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desenvolvimento/cliente/Uf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desenvolvimento/controle/Controle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desenvolvimento/controle/Controle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desenvolvimento/controle/Convenio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desenvolvimento/controle/Convenio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desenvolvimento/controle/Exame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desenvolvimento/controle/Exame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desenvolvimento/controle/ExamePedidoExame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desenvolvimento/controle/ExamePedidoExame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desenvolvimento/controle/GrupoExame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desenvolvimento/controle/GrupoExame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desenvolvimento/controle/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desenvolvimento/controle/Medico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desenvolvimento/controle/PedidoExame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desenvolvimento/controle/PedidoExame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desenvolvimento/programa/Programa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desenvolvimento/programa/Programa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desenvolvimento/util/DataHoraLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desenvolvimento/util/DataHoraLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desenvolvimento/util/DateValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desenvolvimento/util/DateValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/desenvolvimento/util/ISystemLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desenvolvimento/util/ISystemLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desenvolvimento/util/ValidadorDeOpcao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desenvolvimento/util/ValidadorDeOpcao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desenvolvimento/util/ValidarCPF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desenvolvimento/util/ValidarCPF.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +122,7 @@
       <workItem from="1693240923695" duration="40287000" />
       <workItem from="1693315105560" duration="48318000" />
       <workItem from="1693394197491" duration="6754000" />
-      <workItem from="1693403347666" duration="25760000" />
+      <workItem from="1693403347666" duration="32578000" />
     </task>
     <task id="LOCAL-00001" summary="Criação e inplementação  do Sistema da Clínica Médica.">
       <created>1693426260282</created>
@@ -121,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693426260282</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Inplementações de Comentários nas classes ligadas ao paciente.">
+      <created>1693429374808</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693429374808</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

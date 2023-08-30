@@ -6,7 +6,9 @@ import java.util.Scanner;
 import java.util.UUID;
 
 /**
- * Esta classe representa um estado.
+ * Classe que representa um estado.
+ *
+ * @author Adriano Santos
  */
 public class Uf implements ISystemLine {
 
@@ -132,6 +134,6 @@ public class Uf implements ISystemLine {
      */
     public void imprimirInformacoesUf() {
 
-        System.out.println("Estado: " + this.getNomeUf() + " - " + "Sigla: " + this.getSigla());
+        System.out.println("Estado: " + this.getNomeUf() + " - " + "Sigla: " + this.getSigla() + "\n\n");
     }
 }

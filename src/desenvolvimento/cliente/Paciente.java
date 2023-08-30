@@ -11,6 +11,11 @@ import desenvolvimento.util.ValidarCPF;
 import java.util.*;
 import java.util.UUID;
 
+/**
+ * Classe que representa um paciente.
+ *
+ * @author Adriano Santos
+ */
 public class Paciente implements ISystemLine {
 
     private UUID codigo = UUID.randomUUID();
@@ -88,7 +93,7 @@ public class Paciente implements ISystemLine {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("\n" + LINE);
-        System.out.println("|          INFORMAÇÕES SOBRE O PARCIENTE         |");
+        System.out.println("|         INFORMAÇÕES SOBRE O PARCIENTE         |");
         System.out.println(LINE);
 
         // Loop para o nome
