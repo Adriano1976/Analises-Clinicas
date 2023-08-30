@@ -1,4 +1,4 @@
-# Analises-Clinicas
+# Analises Clinicas
 
 # Requisitos do Sistema do Laboratório
 
