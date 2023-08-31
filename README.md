@@ -43,3 +43,22 @@ As linhas entre as classes representam as relações entre elas. Por exemplo, a 
 ## Notas
 
 A imagem é rotulada como "Figura 1 - Diagrama de classes do laboratório de análises clínicas / Fonte: os autores" na parte inferior. Isso sugere que o diagrama foi criado pelos autores do documento e representa a estrutura de classes de um sistema para um laboratório de análises clínicas. Como desenvolvedor Java, eu usaria essas classes e relações para modelar o sistema em código, criando classes Java para cada uma delas e usando associações, agregações e composições conforme indicado pelas linhas no diagrama.
+
+## Documentação com Javadoc
+
+O Javadoc é uma ferramenta do JDK (Java Development Kit) que gera documentação de API a partir de comentários presentes no código-fonte. A documentação de API é um dos muitos fatores que contribuem para o sucesso geral de um projeto de software. O Javadoc permite que você extraia comentários de código em arquivos HTML externos, o que ajuda os desenvolvedores a criar facilmente documentação de código.
+
+## Dicas para aproveitar ao máximo o Javadoc
+
+Para aproveitar ao máximo o Javadoc, é importante seguir algumas práticas recomendadas. Aqui estão algumas dicas:
+
+- Use comentários Javadoc acima de qualquer classe, método ou campo que você deseja documentar.
+- Os comentários Javadoc podem conter tags HTML.
+- Os comentários Javadoc são comumente compostos por duas seções: a descrição do que estamos comentando e as tags de bloco independentes (marcadas com o símbolo "@"), que descrevem metadados específicos.
+- Use tags de bloco para fornecer informações adicionais, como autor, versão, parâmetros, retorno e outros.
+- Documente campos e métodos privados se eles forem importantes para entender o funcionamento interno da classe.
+
+Seguindo essas práticas recomendadas, você pode criar documentação de código clara e útil para seus projetos Java. Isso pode ajudar a tornar seu código mais legível e fácil de manter para você e sua equipe.
+
+Documentação do Projeto com Javadoc - [Análises-Clinicas](https://adriano1976.github.io/Analises-Clinicas-JavaDoc/index.html)
+
