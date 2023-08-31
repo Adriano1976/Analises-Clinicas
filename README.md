@@ -1,6 +1,6 @@
 # Analises Clinicas
 
-# Requisitos do Sistema do Laboratório
+## Requisitos do Sistema do Laboratório
 
 O laboratório deseja que o novo sistema possa fornecer informações rápidas, precisas e seguras a fim de melhorar as suas atividades administrativas e o atendimento aos seus pacientes. Dessa forma, você permanecerá bem menos tempo no laboratório, pois os processos estarão automatizados. Para tanto, o novo sistema deve:
 
