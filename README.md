@@ -19,7 +19,7 @@ Permitir o cadastro dos pedidos de exames dos pacientes. É necessário saber os
 - Emitir o pedido do exame em três vias, com todos os dados do pedido do exame. O relatório será emitido pela recepcionista, e a primeira via será entregue ao paciente (comprovante da entrega do exame), a segunda via ao departamento de faturamento (para a cobrança dos exames dos convênios), e a terceira via aos bioquímicos (para a realização dos exames).
 - Emitir relatório com os resultados dos exames por pedido, com o nome do paciente, a data e o horário do exame (da sua realização), o nome do médico que solicitou o procedimento, o nome do convênio e o resultado de cada exame realizado caso tenha sido mais de um. O relatório será solicitado pela recepcionista e entregue ao paciente (não é necessário que a recepcionista fique com esse relatório).
 
-  ![UML - System Medic](https://github.com/Adriano1976/clinicsystem/assets/17755195/db7a0a07-1f41-4322-8365-8d56fc6a5978)
+ ![UML-Clinica-Medica](https://github.com/Adriano1976/Analises-Clinicas/assets/17755195/f29f728c-191d-42a7-9f28-0a0d6bdee6c6)
 
 ## Diagrama de Classes do Laboratório de Análises Clínicas
 
@@ -46,7 +46,11 @@ A imagem é rotulada como "Figura 1 - Diagrama de classes do laboratório de an�
 
 ## Documentação com Javadoc
 
-O Javadoc é uma ferramenta do JDK (Java Development Kit) que gera documentação de API a partir de comentários presentes no código-fonte. A documentação de API é um dos muitos fatores que contribuem para o sucesso geral de um projeto de software. O Javadoc permite que você extraia comentários de código em arquivos HTML externos, o que ajuda os desenvolvedores a criar facilmente documentação de código.
+O Javadoc é uma ferramenta do JDK (Java Development Kit) que gera documentação de API a partir de comentários presentes no código-fonte. A documentação de API é um dos muitos fatores que contribuem para o sucesso geral de um projeto de software. O Javadoc permite que você extraia comentários de código em arquivos HTML externos, o que ajuda os desenvolvedores a criar facilmente documentação de código. Portanto, caso queira navegar e conhecer a extrutura do projeto, basta usar os recursos disponíveis pelo java doc por meio do link disponibilizado para que você posso já ter uma experiência com o projeto antes mesmo de instalar em sua máquina.
+
+![documentacao-interativa-javadoc-projeto-analises-clinicas](https://github.com/Adriano1976/Analises-Clinicas/assets/17755195/deabdb7a-bffc-4b9a-a09f-7a44ce58761c)
+
+* Link de Acesso: https://adriano1976.github.io/Analises-Clinicas-JavaDoc/index.html
 
 ## Dicas para aproveitar ao máximo o Javadoc
 
@@ -61,4 +65,8 @@ Para aproveitar ao máximo o Javadoc, é importante seguir algumas práticas rec
 Seguindo essas práticas recomendadas, você pode criar documentação de código clara e útil para seus projetos Java. Isso pode ajudar a tornar seu código mais legível e fácil de manter para você e sua equipe.
 
 Documentação do Projeto com Javadoc - [Análises-Clinicas](https://adriano1976.github.io/Analises-Clinicas-JavaDoc/index.html)
+
+<div align="center">
+ <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=87CEFA&height=120&section=footer"/>**** 
+</div>
 
