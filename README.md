@@ -19,9 +19,13 @@ Permitir o cadastro dos pedidos de exames dos pacientes. É necessário saber os
 - Emitir o pedido do exame em três vias, com todos os dados do pedido do exame. O relatório será emitido pela recepcionista, e a primeira via será entregue ao paciente (comprovante da entrega do exame), a segunda via ao departamento de faturamento (para a cobrança dos exames dos convênios), e a terceira via aos bioquímicos (para a realização dos exames).
 - Emitir relatório com os resultados dos exames por pedido, com o nome do paciente, a data e o horário do exame (da sua realização), o nome do médico que solicitou o procedimento, o nome do convênio e o resultado de cada exame realizado caso tenha sido mais de um. O relatório será solicitado pela recepcionista e entregue ao paciente (não é necessário que a recepcionista fique com esse relatório).
 
- ![UML-Clinica-Medica](https://github.com/Adriano1976/Analises-Clinicas/assets/17755195/f29f728c-191d-42a7-9f28-0a0d6bdee6c6)
+# Diagrama UML da Clínica Médica
 
- nesse outro diagrama de classe foi criado uma nova UML no entanto através da ID inteligência depois que o projeto análises clínicas foi refeita e acrescentado algumas funcionalidades e documentações deixando mais robusta e mais clássica. Foi um desafio a mais em pegar o código depois de pronto de acordo com as instruções do projeto e assim praticar um pouco mais e compreender cada detalhe da estrutura do projeto como também a importância de conhecer cada etapa, como cada classe, cada métodos que cada atributos de suas respectivas classes e da dependência de uma com a outra.
+<p align="center">
+  <img src="https://github.com/Adriano1976/Analises-Clinicas/assets/17755195/f29f728c-191d-42a7-9f28-0a0d6bdee6c6" alt="UML-Clinica-Medica">
+</p>
+
+ Nesse outro diagrama de classe foi criado uma nova UML no entanto através da ID inteligência depois que o projeto análises clínicas foi refeita e acrescentado algumas funcionalidades e documentações deixando mais robusta e mais clássica. Foi um desafio a mais em pegar o código depois de pronto de acordo com as instruções do projeto e assim praticar um pouco mais e compreender cada detalhe da estrutura do projeto como também a importância de conhecer cada etapa, como cada classe, cada métodos que cada atributos de suas respectivas classes e da dependência de uma com a outra.
 
  ![UML - Clínica Médica](https://github.com/Adriano1976/Analises-Clinicas/assets/17755195/38bec7c4-5ed7-4e64-9056-62edecb97b54)
 
